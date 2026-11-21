@@ -113,13 +113,23 @@ This allows application data to persist between program executions.
 
 ## How to Run
 
+### Using Microsoft Visual Studio
 1. Clone or download the repository.
-2. Open the `.sln` or `.vcxproj` project in Microsoft Visual Studio.
+2. Open the `.vcxproj` file in Visual Studio.
 3. Build the project.
 4. Run the application.
-5. Log in using an existing user account from the provided `Users.txt` file.
 
-**Note:** Keep the provided text files in the application's working directory so the application can access its stored data.
+### Using Visual Studio Code
+1. Clone or download the repository.
+2. Install a C++ compiler and the C/C++ extension.
+3. Open the project folder in VS Code.
+4. Configure the build task using a C++20-compatible compiler.
+5. Compile and run the project from the project directory.
+
+**Note:** Make sure the required text files are available in the application's working directory, as they are used for data storage and retrieval.
+
+**C++ Standard:** C++20
+
 
 ## Learning Outcomes
 
